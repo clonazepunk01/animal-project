@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="toggle">
+        <div class="logo">
+            <h3>Endless nights</h3>
+        </div>
+        <ul class="list">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="gallery.html">Galería</a></li>
+            <li><a href="details.html">Detalles</a></li>
+            <li><a href="contact.html">Contacto</a></li>
+        </ul>
+        <label for="toggle" class="icon-bars">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </label>
+    </nav>
+    <h1>Solicitud de Contacto</h1>
+    <div class="line"></div>
+    <div class="formulary">
+        <h2>Registro de Usuario</h2>
+
+        <form action="/procesar_formulario" method="post">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+    
+        <label for="email">Correo Electrónico:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+    
+        <label for="fecha_nacimiento">Fecha de Nacimiento:</label><br>
+        <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required><br><br>
+    
+        <input type="submit" value="Enviar">
+        </form>
+    </div>
+    <footer>
+        <p>Luis Valencia Norambuena &copy;2024</p>
+    </footer>
+</body>
+
+</html>
